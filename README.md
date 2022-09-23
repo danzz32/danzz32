@@ -2,9 +2,9 @@
 
 
 <div>
-<a href="https://github.com/DaNzz32">
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DaNzz32&layout=compact&langs_count=7&theme=dracula"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=DaNzz32&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+<a href="https://github.com/danzz32">
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danzz32&layout=compact&langs_count=7&theme=dracula"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=danzz32&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
 </div>
   
 ## Estou aprendendo
@@ -19,4 +19,4 @@
   
 <br>  
 
-![Snake animation](https://github.com/DaNzz32/DaNzz32/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/danzz32/danzz32/blob/output/github-contribution-grid-snake.svg)
