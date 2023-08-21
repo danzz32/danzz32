@@ -18,4 +18,5 @@
   
 <br>  
 
+
 ![Snake animation](https://github.com/danzz32/danzz32/blob/output/github-contribution-grid-snake.svg)
