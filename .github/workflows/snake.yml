@@ -2,16 +2,9 @@ name: Generate Snake
 
 on:
   schedule:
-    # Executa diariamente às 00:00 UTC
     - cron: "0 0 * * *"
 
-  # Permite executar manualmente pelo GitHub Actions
   workflow_dispatch:
-
-  # Executa quando houver alteração na branch main
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
@@ -19,20 +12,18 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-
-    timeout-minutes: 10
+    timeout-minutes: 5
 
     steps:
-      - name: Generate Snake
-        uses: Platane/snk@v3
+      - name: Generate snake SVG
+        uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: danzz32
-
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Publish Snake to output branch
+      - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           build_dir: dist
