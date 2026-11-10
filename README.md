@@ -108,13 +108,12 @@ Atualmente trabalho principalmente com **React + TypeScript** no front-end e **P
     srcset="https://raw.githubusercontent.com/danzz32/danzz32/output/github-snake.svg"
   >
   <img
-    alt="GitHub contribution snake"
+    alt="github-snake"
     src="https://raw.githubusercontent.com/danzz32/danzz32/output/github-snake.svg"
   >
 </picture>
 
 </div>
-
 ---
 
 ## 🎯 Atualmente
